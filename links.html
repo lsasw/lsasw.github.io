@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>用 AI 辅助写代码的一些原则 | 七智的博客</title>
+    <meta name="description" content="七智的博客友链。" />
+    <title>友链 | 七智的博客</title>
     <link rel="icon" href="/img/favicon.svg" type="image/svg+xml" />
     <link rel="alternate icon" href="/img/favicon.png" />
     <link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
@@ -23,13 +24,13 @@
           <a href="/">首页</a>
           <a href="/archive.html">所有文章</a>
           <a href="/search.html">搜索</a>
-          <a href="/links.html">友链</a>
+          <a href="/links.html" aria-current="page">友链</a>
           <a href="/about.html">关于</a>
           <a href="https://github.com/lsasw">GitHub</a>
         </nav>
         <form class="site-search" action="/search.html" role="search">
-          <label class="sr-only" for="site-search-ai">搜索文章</label>
-          <input id="site-search-ai" type="search" name="q" placeholder="搜索文章" autocomplete="off" />
+          <label class="sr-only" for="site-search-links">搜索文章</label>
+          <input id="site-search-links" type="search" name="q" placeholder="搜索文章" autocomplete="off" />
           <button type="submit" aria-label="搜索">
             <svg viewBox="0 0 24 24" aria-hidden="true">
               <path d="m21 21-4.2-4.2M10.8 18a7.2 7.2 0 1 1 0-14.4 7.2 7.2 0 0 1 0 14.4Z" />
@@ -37,19 +38,35 @@
           </button>
         </form>
       </header>
+
       <main>
-        <article class="article">
-          <p class="meta">2026年06月12日</p>
-          <h1>用 AI 辅助写代码的一些原则</h1>
-          <p>
-            AI 可以加快试错，但不能替代判断。越是让它写代码，越要把目标、边界和验证方式说清楚。
-          </p>
-          <p>
-            我更愿意把 AI 当成结对工程师：先读现有代码，再小步修改，最后用测试和浏览器检查结果。
-          </p>
+        <article class="links-page">
+          <header class="page-title">
+            <h1>友链</h1>
+            <p>放一些长期更新、真实做事、值得反复阅读的网站。</p>
+          </header>
+
+          <section class="friend-links" aria-label="友情链接">
+            <a class="friend-link" href="https://github.com/lsasw">
+              <span class="friend-name">七智的 GitHub</span>
+              <span class="friend-url">github.com/lsasw</span>
+              <span class="friend-desc">项目、代码和一些正在打磨的工具会先放在这里。</span>
+            </a>
+          </section>
+
+          <section class="note">
+            <h2>交换友链</h2>
+            <p>
+              如果你也在长期写博客，可以通过 GitHub 联系我。建议带上网站名称、链接、一句话介绍和头像或图标地址。
+              我更愿意放持续更新、有真实内容、页面干净的网站。
+            </p>
+          </section>
         </article>
       </main>
-      <footer class="site-footer"><p><a href="/archive.html">返回归档</a></p></footer>
+
+      <footer class="site-footer">
+        <p>© 2026 七智的博客. Powered by GitHub Pages.</p>
+      </footer>
     </div>
   </body>
 </html>
