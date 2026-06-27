@@ -1,5 +1,13 @@
 window.BLOG_SEARCH_INDEX = [
   {
+    title: "给中文文章配小黑手绘图：ian-xiaohei-illustrations",
+    date: "2026年06月27日",
+    url: "/posts/ian-xiaohei-illustrations.html",
+    summary: "把中文文章里的判断、流程和隐喻转成小黑手绘正文配图，适合方法论和复盘内容。",
+    content:
+      "ian-xiaohei-illustrations 小黑 中文文章 正文配图 Codex Skill 手绘图 16:9 白底 方法论 复盘 AI 工作流 知识库 视觉化 隐喻 流程 配图 可玩性"
+  },
+  {
     title: "把 SVG 变成手绘动画：svg-hand-drawn-skill",
     date: "2026年06月27日",
     url: "/posts/svg-hand-drawn-skill.html",
