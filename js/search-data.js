@@ -1,5 +1,13 @@
 window.BLOG_SEARCH_INDEX = [
   {
+    title: "把 SVG 变成手绘动画：svg-hand-drawn-skill",
+    date: "2026年06月27日",
+    url: "/posts/svg-hand-drawn-skill.html",
+    summary: "把普通 SVG 处理成手写、手画出来的动态效果，适合给博客文章加一点可玩的演示。",
+    content:
+      "svg-hand-drawn-skill SVG 手绘动画 手写路径 动态效果 preview.html player.js logo 流程图 签名 图标 课程封面 博客演示 可玩性"
+  },
+  {
     title: "搭建自己的长期写作系统",
     date: "2026年06月27日",
     url: "/posts/write-system.html",
