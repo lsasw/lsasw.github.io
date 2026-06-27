@@ -3,11 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="DMW 的个人博客，记录编程、工作流、AI 辅助创作和长期积累。"
-    />
-    <title>DMW 的个人博客</title>
+    <meta name="description" content="DMW 的个人博客文章归档。" />
+    <title>所有文章 | DMW 的个人博客</title>
     <link rel="icon" href="/img/favicon.png" />
     <link rel="stylesheet" href="/css/blog.css" />
   </head>
@@ -18,26 +15,19 @@
         <p class="tagline">把每天做过的事，沉淀成能复用的作品。</p>
         <nav class="site-nav" aria-label="主导航">
           <a href="/">首页</a>
-          <a href="/archive.html">所有文章</a>
+          <a href="/archive.html" aria-current="page">所有文章</a>
           <a href="/about.html">关于</a>
           <a href="https://github.com/lsasw">GitHub</a>
         </nav>
       </header>
 
       <main>
-        <section class="intro">
-          <h1>这里记录我正在长期打磨的东西。</h1>
-          <p>
-            编程、AI 工具、个人工作流、项目复盘，以及那些能变成作品、服务或模板的经验。
-            这个站点保持简单：少一点装饰，多一点可持续写下去的空间。
-          </p>
-        </section>
-
-        <section class="posts">
-          <header class="section-header">
-            <h2>最近文章</h2>
-            <a href="/archive.html">查看全部</a>
+        <article class="archive">
+          <header class="page-title">
+            <h1>所有文章</h1>
+            <p>按时间倒序排列。先让文章活下来，再慢慢分类。</p>
           </header>
+
           <ol class="post-list">
             <li>
               <time datetime="2026-06-27">2026年06月27日</time>
@@ -52,15 +42,7 @@
               <a href="/posts/ai-coding-principles.html">用 AI 辅助写代码的一些原则</a>
             </li>
           </ol>
-        </section>
-
-        <section class="note">
-          <h2>写作方向</h2>
-          <p>
-            我会优先写三类内容：能挣钱的服务验证、能积累能力的技术练习、能沉淀成作品的项目记录。
-            每篇文章尽量留下一个可以复用的清单、模板或下一步动作。
-          </p>
-        </section>
+        </article>
       </main>
 
       <footer class="site-footer">
