@@ -3,20 +3,39 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>用 AI 辅助写代码的一些原则 | 七智的个人博客</title>
+    <title>用 AI 辅助写代码的一些原则 | 博客</title>
+    <link rel="icon" href="/img/favicon.svg" type="image/svg+xml" />
+    <link rel="alternate icon" href="/img/favicon.png" />
+    <link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
     <link rel="stylesheet" href="/css/blog.css" />
+    <script src="/js/search-data.js" defer></script>
+    <script src="/js/site-search.js" defer></script>
   </head>
   <body>
     <div class="container">
       <header class="site-header">
-        <a class="site-name" href="/">七智的个人博客</a>
+        <a class="site-name" href="/" aria-label="博客首页">
+          <img src="/img/blog-mark.svg" alt="" width="42" height="42" />
+          <span>博客</span>
+        </a>
         <p class="tagline">把每天做过的事，沉淀成能复用的作品。</p>
         <nav class="site-nav" aria-label="主导航">
           <a href="/">首页</a>
           <a href="/archive.html">所有文章</a>
+          <a href="/search.html">搜索</a>
           <a href="/about.html">关于</a>
           <a href="https://github.com/lsasw">GitHub</a>
         </nav>
+        <form class="site-search" action="/search.html" role="search">
+          <label class="sr-only" for="site-search-ai">搜索文章</label>
+          <input id="site-search-ai" type="search" name="q" placeholder="搜索文章" autocomplete="off" />
+          <button type="submit" aria-label="搜索">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="m21 21-4.2-4.2M10.8 18a7.2 7.2 0 1 1 0-14.4 7.2 7.2 0 0 1 0 14.4Z" />
+            </svg>
+          </button>
+        </form>
       </header>
       <main>
         <article class="article">

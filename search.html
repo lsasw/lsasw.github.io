@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>从混乱到清单：我的工作流整理 | 博客</title>
+    <meta name="description" content="搜索博客文章。" />
+    <title>搜索 | 博客</title>
     <link rel="icon" href="/img/favicon.svg" type="image/svg+xml" />
     <link rel="alternate icon" href="/img/favicon.png" />
     <link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
@@ -23,33 +24,33 @@
         <nav class="site-nav" aria-label="主导航">
           <a href="/">首页</a>
           <a href="/archive.html">所有文章</a>
-          <a href="/search.html">搜索</a>
+          <a href="/search.html" aria-current="page">搜索</a>
           <a href="/about.html">关于</a>
           <a href="https://github.com/lsasw">GitHub</a>
         </nav>
-        <form class="site-search" action="/search.html" role="search">
-          <label class="sr-only" for="site-search-workflow">搜索文章</label>
-          <input id="site-search-workflow" type="search" name="q" placeholder="搜索文章" autocomplete="off" />
-          <button type="submit" aria-label="搜索">
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path d="m21 21-4.2-4.2M10.8 18a7.2 7.2 0 1 1 0-14.4 7.2 7.2 0 0 1 0 14.4Z" />
-            </svg>
-          </button>
-        </form>
       </header>
+
       <main>
-        <article class="article">
-          <p class="meta">2026年06月20日</p>
-          <h1>从混乱到清单：我的工作流整理</h1>
-          <p>
-            混乱通常不是因为事情太难，而是入口太多。我的整理方式是把资料、任务、项目和复盘分开放。
-          </p>
-          <p>
-            每天只问三个问题：今天最重要的事是什么，第一步是什么，完成标准是什么。
-          </p>
-        </article>
+        <section class="search-page">
+          <header class="page-title">
+            <h1>搜索</h1>
+            <p>输入关键词，查找标题、摘要和正文内容。</p>
+          </header>
+
+          <form class="search-panel" action="/search.html" role="search">
+            <label class="sr-only" for="search-query">搜索文章</label>
+            <input id="search-query" type="search" name="q" placeholder="例如：AI、工作流、写作系统" autocomplete="off" autofocus />
+            <button type="submit">搜索</button>
+          </form>
+
+          <p class="search-status" data-search-status>输入关键词开始搜索。</p>
+          <ol class="search-results" data-search-results></ol>
+        </section>
       </main>
-      <footer class="site-footer"><p><a href="/archive.html">返回归档</a></p></footer>
+
+      <footer class="site-footer">
+        <p>© 2026 博客. Powered by GitHub Pages.</p>
+      </footer>
     </div>
   </body>
 </html>
